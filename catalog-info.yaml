@@ -1,22 +1,8 @@
 ---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-system
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: platform-nginx-dev
-  description: "nginx"
-  annotations:
-    backstage.io/techdocs-ref: dir:.
-    argocd/app-name: platform-nginx-dev
-    backstage.io/kubernetes-id: platform-nginx-dev
-  links:
-    - url: https://localhost:8080/applications/argocd/platform-nginx-dev
-      title: ArgoCD
-      icon: cloud
-  tags:
-    - golang
-    - "platform"
-
+  name: examples
 spec:
-  system: "default"
-  type:  service
   owner: guests
