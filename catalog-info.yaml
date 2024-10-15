@@ -1,8 +1,10 @@
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-system
 apiVersion: backstage.io/v1alpha1
-kind: System
+kind: Component
 metadata:
-  name: examples
-spec:
-  owner: guests
+  name: backstage
+  description: |
+    Backstage is an open-source developer portal that puts the developer experience first.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
